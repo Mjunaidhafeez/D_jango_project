@@ -1,0 +1,8 @@
+pip install django
+django-admin startproject Eshop .
+django-admin startapp store
+python manage.py makemigrations
+python manage.py migrate
+python -m pip install Pillow
+python manage.py createsuperuser
+python manage.py runserver
